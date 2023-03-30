@@ -312,6 +312,6 @@
 
 @media (max-width: 920px) {
   .animation-delay {
-    animation-delay: calc(var(--scroll) * 5s) !important;
+    animation-delay: calc(var(--scroll) * -4s) !important;
   }
 }

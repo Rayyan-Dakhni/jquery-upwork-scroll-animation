@@ -1397,6 +1397,7 @@
   .tech-time-info {
     position: relative;
     background-color: var(--color-stone);
+    height: 120vh;
   }
   .tti-inner {
     display: flex;
@@ -1421,6 +1422,14 @@
   .tti-inner p {
     width: calc(var(--grid-col-width) * 2 + var(--gap-gutter));
     margin-top: auto;
+  }
+  .fade-animate-scroll {
+    transition: all;
+    transition-duration: 1000ms;
+  }
+  .coordinated-process {
+    transition: all;
+    transition-duration: 1000ms;
   }
 }
 
@@ -1823,6 +1832,8 @@
 
   .tech-body {
     grid-template-columns: repeat(1, 1fr);
+    position: sticky;
+    top: 7rem;
   }
   .tech-time-info {
     height: min-content;
@@ -1863,6 +1874,9 @@
   }
   .coordinated-process {
     display: none;
+  }
+  .tech-timeline {
+    height: 130vh;
   }
 }
 
