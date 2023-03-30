@@ -1424,10 +1424,12 @@
     margin-top: auto;
   }
   .fade-animate-scroll {
+    opacity: 0;
     transition: all;
     transition-duration: 1000ms;
   }
   .coordinated-process {
+    opacity: 0;
     transition: all;
     transition-duration: 1000ms;
   }
